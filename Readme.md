@@ -51,9 +51,9 @@ This project presents an end-to-end data analysis pipeline using the US Supersto
 
 ## 📁 Repository Structure
 
-- `superstore_sql_analysis.sql` - Complete SQL script containing the data cleaning View, EDA queries, and business metric CTEs.
+- `sStore_Sales.sql` - Complete SQL script containing the data cleaning View, EDA queries, and business metric CTEs.
 - `Store_Sales_Clean.csv` - Processed dataset exported from SQLite, ready for BI modeling.
-- `Superstore_Sales_Revenue_Dashboard.pbix` - Interactive Power BI Dashboard file.
+- `Executive_Sales_Dashboard.pbix` - Interactive Power BI Dashboard file.
 - `Executive_Sales_Dasboard_S.png` - High-resolution export of the Power BI executive layout.
 - `README.md` - Full project documentation.
 
