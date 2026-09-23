@@ -17,7 +17,6 @@ This project presents an end-to-end data analysis pipeline using the US Supersto
   - Complex aggregations (`GROUP BY`, `ORDER BY`, `COUNT`, `SUM`).
 - **Data Modeling & BI (Power BI):**
   - Designed a **Star Schema** with a 1-to-many relationship between a dedicated `Calendar` dimension table and the `Store_Sales_Clean` fact table.
-  - 
 ---
 
 ## 💡 Key Business Questions & Insights
