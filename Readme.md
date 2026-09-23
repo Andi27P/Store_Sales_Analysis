@@ -10,16 +10,14 @@ This project presents an end-to-end data analysis pipeline using the US Supersto
 ## 🛠️ Tech Stack & Skills Demonstrated
 
 - **Database / Environment:** SQLite, Visual Studio Code
-- **Data Cleaning & ETL (SQL):** Standardized date formats (`YYYY-MM-DD`) using string manipulation (`SUBSTR`) and normalized column headers via SQL Views.
+- **Data Cleaning & ETL (SQL):** Standardized date formats using string manipulation and normalized column headers via SQL Views.
 - **Advanced SQL Techniques:** 
   - Common Table Expressions (CTEs) for multi-step aggregations.
-  - Subqueries for dynamic baseline comparisons (e.g., filtering above-average sales).
+  - Subqueries for dynamic baseline comparisons.
   - Complex aggregations (`GROUP BY`, `ORDER BY`, `COUNT`, `SUM`).
 - **Data Modeling & BI (Power BI):**
   - Designed a **Star Schema** with a 1-to-many relationship between a dedicated `Calendar` dimension table and the `Store_Sales_Clean` fact table.
-  - Formatted localized English date hierarchies with custom numerical sorting (`Month_Number` logic).
-  - Engineered core DAX measures (`Total Revenue`, `Total Orders`).
-
+  - 
 ---
 
 ## 💡 Key Business Questions & Insights
@@ -29,12 +27,12 @@ This project presents an end-to-end data analysis pipeline using the US Supersto
    - Filtered top 5 VIP clients contributing disproportionately to revenue for retention targeting.
 
 2. **Regional Revenue Contribution:**
-   - Calculated exact income percentages per region. Sales are heavily anchored in major state economies (e.g., California, New York).
+   - Calculated exact income percentages per region. Sales are heavily anchored in major state economies.
 
 3. **Product & Category Dynamics (Volume vs. Revenue Trade-Off):**
-   - **Technology:** Drives the highest total revenue (~$0.83M) with lower transaction volume (~1.5K orders), representing a high Average Order Value (AOV).
+   - **Technology:** Drives the highest total revenue (~$0.83M) with lower transaction volume (~1.5K orders), representing a high Average Order Value.
    - **Office Supplies:** Generates high transactional volume (3.7K orders) at a lower total revenue ($0.71M), indicating high-frequency consumable purchases.
-
+   - 
 4. **Isolated Market Trends:**
    - Multi-filtered analysis isolating highest-spending customers and sub-category dynamics exclusively across regional markets.
 
@@ -51,7 +49,7 @@ This project presents an end-to-end data analysis pipeline using the US Supersto
 
 ## 📁 Repository Structure
 
-- `sStore_Sales.sql` - Complete SQL script containing the data cleaning View, EDA queries, and business metric CTEs.
+- `Store_Sales.sql` - Complete SQL script containing the data cleaning View, EDA queries, and business metric CTEs.
 - `Store_Sales_Clean.csv` - Processed dataset exported from SQLite, ready for BI modeling.
 - `Executive_Sales_Dashboard.pbix` - Interactive Power BI Dashboard file.
 - `Executive_Sales_Dasboard_S.png` - High-resolution export of the Power BI executive layout.
