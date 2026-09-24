@@ -10,7 +10,7 @@ This project presents an end-to-end data analysis pipeline using the US Supersto
 ## 🛠️ Tech Stack & Skills Demonstrated
 
 - **Database / Environment:** SQLite, Visual Studio Code
-- **Data Cleaning & ETL (SQL):** Standardized date formats using string manipulation and normalized column headers via SQL Views.
+- **Data Cleaning (SQL):** Standardized date formats using string manipulation and normalized column headers via SQL Views.
 - **Advanced SQL Techniques:** 
   - Common Table Expressions (CTEs) for multi-step aggregations.
   - Subqueries for dynamic baseline comparisons.
