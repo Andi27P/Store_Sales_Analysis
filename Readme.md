@@ -1,7 +1,7 @@
 # Superstore Sales Data Analysis (SQL & Power BI)
 
 ## 🎯 Project Overview
-This project presents an end-to-end data analysis pipeline using the US Superstore sales dataset. The primary objective is to transform raw, unformatted transaction records into a clean, structured data model and extract actionable business insights regarding regional performance, product demand, and customer purchasing behavior using **SQLite** and **Power BI**.
+This project presents a data analysis using an US Superstore sales dataset. The primary objective is to transform raw, unformatted transaction records into a clean, structured data model and extract business insights regarding regional performance, product demand and customer purchasing behavior using **SQLite** and **Power BI**.
 
 ![Dashboard Preview](Executive_Sales_Dasboard_S.png)
 
