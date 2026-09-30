@@ -47,7 +47,7 @@ This project presents a data analysis using an US Superstore sales dataset. The 
 ---
 
 ## 📁 Project Structure
-'''text
+```text
 ├── `Store_Sales.sql`                  # Complete SQL script containing the data cleaning View, EDA queries, and business metric CTEs.
 ├── `Store_Sales_Clean.csv`            # Processed dataset exported from SQLite, ready for BI modeling.
 ├── `Executive_Sales_Dashboard.pbix`   # Interactive Power BI Dashboard file.
