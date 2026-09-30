@@ -52,4 +52,4 @@ This project presents a data analysis using an US Superstore sales dataset. The 
 ├── `Store_Sales_Clean.csv`            # Processed dataset exported from SQLite, ready for BI modeling.
 ├── `Executive_Sales_Dashboard.pbix`   # Interactive Power BI Dashboard file.
 ├── `Executive_Sales_Dasboard_S.png`   # High-resolution export of the Power BI executive layout.
-└── `README.md` -                      # Project documentation.
+└── `README.md`                        # Project documentation.
