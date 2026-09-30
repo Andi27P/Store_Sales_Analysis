@@ -31,7 +31,7 @@ This project presents a data analysis using an US Superstore sales dataset. The 
 3. **Product & Category Dynamics (Volume vs. Revenue Trade-Off):**
    - **Technology:** Drives the highest total revenue (~$0.83M) with lower transaction volume (~1.5K orders), representing a high Average Order Value.
    - **Office Supplies:** Generates high transactional volume (3.7K orders) at a lower total revenue ($0.71M), indicating high-frequency consumable purchases.
-   - 
+     
 4. **Isolated Market Trends:**
    - Multi-filtered analysis isolating highest-spending customers and sub-category dynamics exclusively across regional markets.
 
